@@ -1,1 +1,1 @@
-# Java_tutorial
+This is a Java tutorial repository
