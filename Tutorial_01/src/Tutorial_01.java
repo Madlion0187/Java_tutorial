@@ -82,13 +82,5 @@ public class Tutorial_01
         System.out.println();
     }
 
-    public static void main(String[] args)
-    {
-        System.out.println(addition(5, 6));
-        System.out.println(division(25, 5));
-        System.out.println(remainder(25 ,0));
-        System.out.println(months(11));
-        numbers(6);
 
-    }
 }
