@@ -22,6 +22,11 @@ public class Tutorial_01
     }
 
     // 3.Task
+
+    /*public static int maradek(int a, int b) {
+    	return b == 0 ? Integer.MAX_VALUE : a % b;
+    }*/
+
     public static int remainder (int a, int b)
     {
         return b == 0 ? exception() : a % b;
@@ -67,12 +72,23 @@ public class Tutorial_01
 
     }
 
+    // 5.Task
+    public static void numbers (int a)
+    {
+        for (int i = 1; i <= a; i++ )
+        {
+            System.out.println(i);
+        }
+        System.out.println();
+    }
+
     public static void main(String[] args)
     {
         System.out.println(addition(5, 6));
         System.out.println(division(25, 5));
         System.out.println(remainder(25 ,0));
         System.out.println(months(11));
+        numbers(6);
 
     }
 }
